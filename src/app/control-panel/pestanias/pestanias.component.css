@@ -1,0 +1,26 @@
+.lupa{
+	margin: 1%;
+	margin-bottom: 0%;
+	max-width: 2%;
+	margin-top: 0%;
+	height: auto;
+	width: auto
+	background=#1276FD;
+	border-radius: 1%;
+}
+
+
+.menu{
+	padding: 1%;
+	background: linear-gradient(45deg, #FFC26B 0%, #FCF7A8 100%);
+}
+
+.item{
+	padding: 1%;
+	background: linear-gradient(45deg, #A9D3F7 0%, #FCAAE8 100%);
+	color: blue;
+}
+
+.item:hover{
+	background: yellow;
+}

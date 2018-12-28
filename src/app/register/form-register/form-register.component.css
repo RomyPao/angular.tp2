@@ -1,0 +1,50 @@
+.contenedor{
+	background: linear-gradient(45deg, #EE3A31 0%, #F6CD29 100%);
+	width: 100%;
+	height: auto;
+	margin: 5%
+}
+
+.titulo_form{
+	background: rgba(0, 0, 0, 0.1);
+	font-size: 2.28rem;
+	background: linear-gradient(45deg, #F53249 0%, #FBA7F2 100%);
+}
+.subtitulo_form{
+	background: rgba(0, 0, 0, 0.1);
+	font-size: 2.00rem;
+	background: linear-gradient(45deg, #EA58FB 0%, #FBD9F8 100%);
+}
+
+.contenido{
+	cursor: pointer;/*diseño del cursor*/
+	border: 2px solid;
+	float: left;
+	width: 35%;
+	height: 400px;
+	font-size: 150%;
+	display: block;/**/
+	/*box-shadow: 0 3px 1px -2px rgba(0, 0, 0,.2), 0 2px 2px 0 rgba(0, 0, 0,.14), 0 1px 5px 0 rgba(0, 0, 0,.12);/*sombra*/
+}
+
+.contenido:hover{/*poner sombreado cuando el puntero esta sobre el contenedor*/
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button{
+	height: 50px;
+	width: 169px;
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	background: #E612E4;
+	background: -webkit-linear-gradient(45deg, #B103E3 0%, #F993E7 100%);
+	background: linear-gradient(45deg, #17EDE0 0%, #86F768 100%);
+	cursor: pointer;
+	border-radius: 29%;
+	border: 0;
+}
+
+.button hover {
+box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}

@@ -1,0 +1,17 @@
+.titulo{
+	background: linear-gradient(45deg, #129CFD 0%, #10F3EB 40%, #D4FA8C 60%);/*estilo gradiente, 45 es el degrade, color de principio, colo de fin */
+	text-align: center;/*alinear el texto en el centro*/
+	vertical-align: middle;/*se alinea en forma vertical pero al centro*/
+	font-size: 80px;/*tamaño de la fuente*/
+	border: 1px solid #242222/*grosor y color del borde*/
+}
+
+.logo{
+	margin: 1%;
+	max-width: 5%;
+	height: auto;
+	width: auto;
+	background:#1276FD;
+	border-radius: 20%;
+	float: left;
+}

@@ -1,0 +1,91 @@
+.contenedor{
+	border: 2px;
+	background: linear-gradient(45deg, #FFEC49 0%, #FCD2F5 100%);
+}
+
+.contenedor-avatar{
+	background: url(../../../assets/images/usuario1.jpg) no-repeat center center;
+	cursor: pointer;
+}
+
+.avatar{
+	border-radius: 50%;
+	background: green;
+	min-height: 8%;
+	max-height: 12%;
+	height: auto;
+	width: auto;
+	cursor: pointer;
+}
+
+
+
+.text{
+	float: left;
+}
+
+.columna-contenido{
+	width: 80%;
+	margin-top: 0px !important;
+	vertical-align: unset !important;
+}
+
+.carta{
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 20%;
+	height: 1%;
+	margin: 1%;
+	padding: 1%;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px;
+	box-shadow: 0 4px 10px 0 rgba(38, 198, 218, 0.5);
+	background: -webkit-linear-gradient(45deg, #F79696 0%, #F9F889 100%);
+}
+
+.carta2{
+	float: left;
+	width: 20%;
+	height: 1%;
+	margin: 1%;
+	padding: 1%;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px;
+	box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5);
+	background: -webkit-linear-gradient(45deg, #D0A3F9 0%, #EC99F8 100%);
+}
+
+
+.button{
+	height: 40px;
+	width: 80px;
+	color: darkred;/*color de letra del boton*/
+	font-family: arial;/*formato de letra*/
+	font-size: 15px;/*tamaño de letra*/
+	font-weight: bold;
+	background: linear-gradient(45deg, #F41BBE 0%, #E8B3F7 100%);
+	cursor: pointer;
+	border-radius: 80%;/*borde del boton*/
+	border: 0;
+	float: right;
+}
+
+.button:hover{
+	background: #F9A2CF;/*cambia de color cuando el puntero esta sobre el boton*/
+}
+
+.celda{
+	text-align: left;
+}
+
+.tabla, .celda, .celda1{
+	border: 2px solid red;
+	border-collapse: collapse;
+}
+
+.tabla{
+	margin-top: 10%;
+}

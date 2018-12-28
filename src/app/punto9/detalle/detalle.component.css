@@ -1,0 +1,26 @@
+
+
+.columna-contenido{
+	width: 100%;
+	margin-top: 0px !important;
+	vertical-align: unset !important;
+	background: linear-gradient(45deg, #EE3A31 0%, #F6CD29 100%);
+	width: 100%;
+	height: 100%;
+	
+	float: left;
+}
+
+.celda{
+	text-align: left;
+}
+
+.tabla, .celda, .celda1{
+	border: 2px solid red;
+	border-collapse: collapse;
+}
+
+.tabla{
+	margin-left: 10%;
+
+}
